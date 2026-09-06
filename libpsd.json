@@ -1,0 +1,19 @@
+{
+    "name": "libpsd",
+    "description": "Photoshop (PSD/PSB) decoder",
+    "filters":["psddec"],
+    "help": "This filter decodes the merged image of Photoshop PSD/PSB documents using psd_sdk.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libpsd.accessor",
+    "filter_source":{
+        "psddec" : "dec_psd.c"
+    },
+    "extension":{
+      "psd" : "img",
+      "psb" : "img",
+      "pdd" : "img"
+    },
+    "licence_required":false
+}
