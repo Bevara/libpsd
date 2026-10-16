@@ -1,5 +1,6 @@
 {
     "name": "libpsd",
+    "version": "1.0.1",
     "description": "Photoshop (PSD/PSB) decoder",
     "filters":["psddec"],
     "help": "This filter decodes the merged image of Photoshop PSD/PSB documents using psd_sdk.",
