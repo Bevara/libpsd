@@ -15,6 +15,10 @@
       "psb" : "img",
       "pdd" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "Photoshop documents",
+        "checked": "2026-10-16"
+    }
 }
