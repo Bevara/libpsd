@@ -1,5 +1,5 @@
 /*
- *  One libc symbol that psd_sdk references and solver_minimal_1 does not
+ *  One libc symbol that psd_sdk references and mm_solver_minimal_1.0.1 does not
  *  export. A side module whose imports are not all resolved never instantiates
  *  at all - the filter simply never registers - so it has to be defined here
  *  (the approach libape and libjxr already take).
