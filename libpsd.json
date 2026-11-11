@@ -2,21 +2,30 @@
     "name": "libpsd",
     "version": "1.0.2",
     "description": "Photoshop (PSD/PSB) decoder",
-    "filters":["psddec"],
+    "filters": [
+        "psddec"
+    ],
     "help": "This filter decodes the merged image of Photoshop PSD/PSB documents using psd_sdk.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libpsd.accessor",
-    "filter_source":{
-        "psddec" : "dec_psd.c"
+    "sources": "https://bevara.ddns.net/sources/libpsd.accessor",
+    "filter_source": {
+        "psddec": "dec_psd.c"
     },
-    "extension":{
-      "psd" : "img",
-      "psb" : "img",
-      "pdd" : "img"
+    "extension": {
+        "psd": "img",
+        "psb": "img",
+        "pdd": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "Photoshop documents",
